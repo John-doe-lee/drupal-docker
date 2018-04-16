@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER Jian He <hejian.he@gmail.com>
+MAINTAINER John Lee <80285394@qq.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install basic system

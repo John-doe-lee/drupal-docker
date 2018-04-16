@@ -1,9 +1,9 @@
 #!/bin/bash
 
-docker pull jianhe/debian
+docker pull cobers/debian
 
 docker rm -f debian
-docker run -d --name debian jianhe/debian
+docker run -d --name debian cobers/debian
 if [ -d ./web.old ]; then
   rm -rf ./web.old
 fi

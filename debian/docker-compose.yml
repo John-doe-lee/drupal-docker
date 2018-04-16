@@ -1,5 +1,5 @@
 debian:
-  image: jianhe/debian
+  image: cobers/debian
   container_name: debian
   ports:
     - 8080:6081

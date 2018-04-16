@@ -1,5 +1,5 @@
-FROM jianhe/debian
-MAINTAINER Jian He <hejian.he@gmail.com>
+FROM cobers/debian
+MAINTAINER John Lee <John Lee@gmail.com>
 
 # Install system packages
 RUN apt-get install -y \
